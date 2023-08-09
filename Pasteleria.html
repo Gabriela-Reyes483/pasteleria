@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Pasteleria Gaby</title>
+    <!-- Aquí importamos la hoja de estilos -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="header" style="display: flex;">
+            <div>
+                <img src="./Imagenes/pasteleria.jpg" alt="logo pasteleria"
+                    style="border-radius: 15%; margin-top: 5%; margin-bottom: 5%;">
+            </div>
+            <nav>
+                <ul>
+                    <a href="Pasteleria.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="Contacto.html">
+                        <li>CONTACTO</li>
+                    </a>
+                    <a href="Sabores.html">
+                        <li>SABORES</li>
+                    </a>
+                    <a href="https://RedesSociales.html/">
+                        <li>SIGUENOS</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="grid">
+                <div id="Pastelprincipal"> <img src="Imagenes/Pastel pagina principal.jpg" alt="Pastel Happy"
+                        style="width: 80%; height:80%; margin-block:5%; border-radius:50%; border-style: double;  ">
+                </div>
+                <div id="bienvenida">
+                    <h1 class="bienvenida">¡Bienvenidos al paraíso de los pasteles!</h1>
+                    <p class="resumen">Déjanos deleitar tus sentidos y endulzar tu día con nuestra exquisita selección
+                        de
+                        pasteles artesanales. En cada bocado, descubrirás una mezcla perfecta de sabores, texturas y
+                        amor
+                        por la repostería. </p>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="carousel1" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel1" data-slide-to="1"></li>
+                                <li data-target="#carousel1" data-slide-to="2"></li>
+                            </ul>
+
+                            <!-- Título del carrusel -->
+                            <div class="carousel-title">
+                                <h1>PASTELES</h1>
+                            </div>
+                            <!-- Imágenes del carrusel 1 -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Imagenes/pastel.jpg" alt="pastel helado" style=" width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/bodas 4.jpg" alt="bodas" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/unicornio.jpg" alt="unicornio" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <!-- Controles del carrusel pastel -->
+                            <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div id="carousel2" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel2" data-slide-to="1"></li>
+                                <li data-target="#carousel2" data-slide-to="2"></li>
+                            </ul>
+
+                            <div class="carousel-title">
+                                <h1>CUPCAKES</h1>
+                            </div>
+
+                            <!-- Imágenes del carrusel 2 cupcake -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Imagenes/cupcake love.jpg" alt="cupcake amor" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/Mixedselectioncupcakescanva_800x800.webp" alt="varios"
+                                        style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/cupcake tree.jpg" alt="cupcake arbol" style="width: 100%;">
+                                </div>
+                            </div>
+
+
+                            <!-- Controles del carrusel -->
+                            <a class="carousel-control-prev" href="#carousel2" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel2" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div id="carousel3" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel3" data-slide-to="1"></li>
+                                <li data-target="#carousel3" data-slide-to="2"></li>
+                            </ul>
+
+                            <div class="carousel-title">
+                                <h1>Y MÁS</h1>
+                            </div>
+                            <!-- Imágenes del carrusel y más -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Imagenes/y mas.png" alt="y mas" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/galletas.jpg" alt="galletas" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/gelatina.jpg" alt="gelatina" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/macaroons.jpg" alt="macaroons" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagenes/tartas.jpg" alt="tartas" style="width: 100%;">
+                                </div>
+                            </div>
+
+                            <!-- Controles del carrusel -->
+                            <a class="carousel-control-prev" href="#carousel3" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel3" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </main>
+
+    <footer>
+        <br>
+        <div class="container">
+            <div id="gridfooter">
+                <div class="contact-info">
+                    <h3>Contacto</h3>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@gmail.com</p>
+                    <p>Dirección: Baja California 266. Col. Hipódromo Condesa, Colonia Condesa, 06100 Ciudad de México,
+                        CDMX</p>
+                </div>
+                <div class="privacy-policy">
+                    <h3>Aviso de Privacidad</h3>
+                    <p>Derechos reservados Gaby 2023©</p>
+                </div>
+                <div class="payment-methods">
+                    <h3>Formas de Pago</h3>
+                    <p>Aceptamos Visa, Mastercard, PayPal, American Express y Mercado pago.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
