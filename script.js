@@ -1,4 +1,4 @@
-//comentario
+
 window.onload = function() {
     var nombre = prompt("Por favor, ingresa tu nombre:");
         
