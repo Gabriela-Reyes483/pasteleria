@@ -16,7 +16,7 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<body style="height: 100%;">
     <header class="container-fluid">
         <div class="header" style="display: flex;">
             <div>
@@ -41,7 +41,6 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="container">
             <div id="grid">
@@ -123,8 +122,6 @@
                                     <img src="Imagenes/cupcake tree.jpg" alt="cupcake arbol" style="width: 100%;">
                                 </div>
                             </div>
-
-
                             <!-- Controles del carrusel -->
                             <a class="carousel-control-prev" href="#carousel2" data-slide="prev">
                                 <span class="carousel-control-prev-icon"></span>
@@ -178,25 +175,66 @@
                 </div>
             </div>
             <br>
-    </main>
+            <div class="container">
+                <div class="row" style="display: flex; justify-content: space-between; height: 400px;">
+                    <div class="col-md-5">
+                        <h2>Nuestras decoraciones</h2>
+                        <br>
+                        <iframe id="video" width="100%" height="80%" src="https://www.youtube.com/embed/ib1V_Z9sjHQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-5">
+                        <h2>¿Dónde encontarnos?</h2>
+                        <br>
+                        <iframe id="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.155352670816!2d-99.17307862572287!3d19.405692541541548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6af81bbc01%3A0x2730088404fa512b!2sCatfecito!5e0!3m2!1ses-419!2smx!4v1691714903541!5m2!1ses-419!2smx"
+                            width="100%" height="82%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
 
+            <div class="formulario">
+                <br>
+                <h3>Envianos tu pedido</h3>
+                <form id="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required><br>
+
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" required><br>
+
+                    <label for="telefono">Número Telefónico:</label>
+                    <input type="tel" id="telefono" required><br>
+
+                    <label for="requisicion">Describenos tu pastel ideal:</label><br>
+                    <textarea id="requisicion" rows="4" cols="50" required></textarea><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <br>
+            </div>
+
+    </main>
     <footer>
         <br>
         <div class="container">
             <div id="gridfooter">
                 <div class="contact-info">
-                    <h3>Contacto</h3>
+                    <h6>Contacto</h6>
                     <p>Teléfono: (123) 456-7890</p>
                     <p>Email: info@gmail.com</p>
                     <p>Dirección: Baja California 266. Col. Hipódromo Condesa, Colonia Condesa, 06100 Ciudad de México,
                         CDMX</p>
                 </div>
                 <div class="privacy-policy">
-                    <h3>Aviso de Privacidad</h3>
+                    <h6>Aviso de Privacidad</h6>
                     <p>Derechos reservados Gaby 2023©</p>
                 </div>
                 <div class="payment-methods">
-                    <h3>Formas de Pago</h3>
+                    <h6>Formas de Pago</h6>
                     <p>Aceptamos Visa, Mastercard, PayPal, American Express y Mercado pago.</p>
                 </div>
             </div>
@@ -208,4 +246,3 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>
