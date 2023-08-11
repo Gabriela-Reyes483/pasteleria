@@ -134,3 +134,15 @@ body img {
     font-family: 'Lilita One', cursive;
     color: #311432;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-container,
+.mapa-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
