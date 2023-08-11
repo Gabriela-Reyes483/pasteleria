@@ -9,9 +9,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%; /* Establece el alto del cuerpo y el html al 100% de la ventana gráfica */
-    overflow: hidden; /* Evita las barras de desplazamiento */
   }
-  
+
 body {
     background-color: #663046;
     width: 100%;
