@@ -75,7 +75,7 @@ footer {
 
 footer p {
 font-family: 'Quicksand', sans-serif;
-font-size: 1vw;
+font-size: 18px;
 
 }
 
@@ -88,20 +88,20 @@ h1 {
 p {
     color: #630436;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 50px;
 }
 
 .bienvenida {
     text-align: center;
     margin-top: 2vw; /* Usando vw para el margen superior */
-    font-size: 3.5vw; /* Usando vw para el tamaño de fuente */
+    font-size: 40px; /* Usando vw para el tamaño de fuente */
     font-family: 'Lobster', cursive;
 }
 
 .resumen {
     text-align: center;
     margin-top: 1vw; /* Usando vw para el margen superior */
-    font-size: 2vw; /* Usando vw para el tamaño de fuente */
+    font-size: 25px; /* Usando vw para el tamaño de fuente */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -131,7 +131,7 @@ body img {
   }
 
   h6 {
-    font-size: 1.5vw;
+    font-size: 20px;
     font-family: 'Lilita One', cursive;
   }
 
